@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "title": "La insoportable levedad del ser",
+        "isbn": "000001"
+    },
+    {
+        "id": "2",
+        "title": "Obra negra",
+        "isbn": "000001"
+    },
+    {
+        "id": "3",
+        "title": "Viaje a pie",
+        "isbn": "000001"
+    }
+]

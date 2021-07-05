@@ -12,9 +12,9 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 //route
 
-app.get('/', (req, res) => {
-    res.json({"Autor":"Dario Lemos"});
-});
+app.use(require('./routes/index'));
+app.use('/api/books',require('./routes/books'));
+app.use('/api/users',require('./routes/users'));
 
 //Starting the server
 app.listen(app.get('port'), () => {
